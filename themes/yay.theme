@@ -1,1 +1,4 @@
-echo "yay!"
+function fish_prompt
+  echo -n (whoami)"@"
+  echo -n (hostname)
+  echo -n " > "
